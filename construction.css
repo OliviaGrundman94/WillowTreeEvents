@@ -1,0 +1,46 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+    height: 100%
+  }
+  
+  .bgimg {
+    /* Background image */
+    background-image: url('images/willowtreelogogreen.png');
+    /* Full-screen */
+    height: 100%;
+    /* Center the background image */
+    background-position: center;
+    /* Scale and zoom in the image */
+    background-size: cover;
+    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+    position: relative;
+
+  }
+
+  
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30rem;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+}
+  
+
+  
+  /* Style the <hr> element */
+  hr {
+    margin: auto;
+    width: 40%;
+  }
+
+  @media screen and (max-width: 576px) {
+    .bgimg{
+        background-image: url('images/willowtreelogogreen.png');
+        height: 100%;
+        background-position: center;
+        background-size: cover; /* This may cause the image to be cut on smaller screens */
+        background-repeat: no-repeat;
+        position: relative;
+    }
+  }
