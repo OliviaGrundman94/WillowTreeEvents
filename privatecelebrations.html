@@ -3,46 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Private Celebrations</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <title>Private Celebrations</title>
+    
    </head>
 <body>
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="index.html" class="nav_logo">
-                <img src="images/WillowTreeLogo_White_NoBackground.png" alt="Logo">
-            </a>
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_list">
-                    <li class="nav_item">
-                        <a href="about.html" class="nav_link">About</a>
-                    </li>
-                    <li class="nav_item dropdown">
-                        <a href="javascript:void(0)" class="dropbtn nav_link">Services</i></a>
-                        <div class="dropdown-content">
-                            <a href="weddings.html">Weddings</a>
-                            <a href="privatecelebrations.html">Private Celebrations</a>
-                            <a href="corporateevents.html">Corporate Events</a>
-                        </div>
-                    </li>
-                    <li class="nav_item">
-                        <a href="testimonials.html" class="nav_link">Testimonials</a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="enquiries.html" class="nav_link">Enquiries</a>
-                    </li>
-                    
-                </ul>
-                <div class="nav_close" id="nav-close">
-                    <i class="fa-solid fa-xmark"></i>
-                </div>
-            </div>
-            <div class="nav_toggle" id="nav-toggle">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </nav>
-    </header>
+    <header-component></header-component>
     
     <main class="main">
         <!-- Private Celebrations Background Image Section -->
@@ -66,14 +40,40 @@
                 We are dedicated to making every occasion, no matter the scale, as special and unique as the moment you’re celebrating.<br><br>
                 Our service includes:
             </p>
+
             <ul class="private_services">
-                <li>- Party Planning</li>
-                <li>- Birthday Parties</li>
-                <li>- Engagement Celebrations</li>
-                <li>- Tablescaping</li>
-                <li>- Baby Showers</li>
-                <li>- Children's Parties</li>
-                <li>- Brand & Product Launches</li>
+                <div class="row">
+                    <div class="column">
+                        <li>• Party Planning</li>
+                    </div>
+                    <div class="column">
+                        <li>• Birthday Parties</li>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <li>• Engagement Celebrations</li>
+                    </div>
+                    <div class="column">
+                        <li>• Tablescaping</li>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <li>• Baby Showers</li>
+                    </div>
+                    <div class="column">
+                        <li>• Children's Parties/li>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <li>• Brand & Product Launches</li>
+                    </div>
+                    <div class="column">
+                        <li></li>
+                    </div>
+                </div>
             </ul>
 
             <a class="button" href="enquiries.html">
@@ -82,59 +82,26 @@
         </section>
     
         <!-- Image Gallery Section -->
-        <section class="private_gallery container">
-            <div class="gallery_container">
-                <img src="images/PrivateEvent2.JPG" alt="Event Image 1" class="gallery_img_large">
-                <div class="gallery_row">
-                    <img src="images/PrivateEvent4.JPG" alt="Event Image 2" class="gallery_img">
+        <div class="gallery_container">
+            <div class="gallery_img_large">
+                <img src="images/PrivateEvent1.JPG" alt="Event Image 1" >
+            </div>
+            <div class="gallery_smaller_imgs">
+                <div class="gallery_img_smaller">
+                    <img src="images/PrivateEvent3.JPG" alt="Event Image 2" class="gallery_img">
+                </div>
+                <div class="gallery_img_smaller">
                     <img src="images/PrivateEvent5.JPG" alt="Event Image 3" class="gallery_img">
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     
-
-    <footer class="footer">
-        <div class="footer_container container grid">
-            <div class="footer_content grid">
-                <div>
-                    <a href="#" class="footer_logo">
-                        <img src="images/WillowTreeLogo_White_NoBackground.png" alt="Logo">
-                    </a>
-                </div>
-                <div class="footer_data grid">
-                    <div>
-                        <h3 class="footer_title">Contact Us</h3>
-                        <ul class="footer_links">
-                            <li><a href="enquiries@willowtreeevents.co.uk">Email</a></li>
-                            <li><a href="enquiries.html">Send Enquiry</a></li>
-                        </ul>  
-                    </div>
-                    <div>
-                        <h3 class="footer_title">Support</h3>
-                        <ul class="footer_links">
-                            <li><a href="privacypolicy.html">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Services</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footer_group">  
-                    <div class="footer_social">     
-                        <a href="https://instagram.com/willowtreeevents.uk" target="_blank" class="footer_social_link">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a href="https://twitter.com" target="_blank" class="footer_social_link">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="https://pinterest.com" target="_blank" class="footer_social_link">
-                            <i class="fa-brands fa-pinterest"></i>
-                        </a>
-                    </div>
-                    <!-- <span class="footer_copy">&#169; Copyright WillowTreeEvents UK. All rights reserved.</span> -->
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    <footer-component></footer-component>
+        
+        
+    <script src="./main.js"></script>
+    <script src="./components/header.js"></script>
+    <script src="./components/footer.js"></script>
 </body>
 </html>

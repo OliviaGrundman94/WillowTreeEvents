@@ -146,3 +146,160 @@ Event Styling & Management
 .home_card:hover {
     background-color: var(--background-color);
 }
+
+
+
+
+CAROSEL 
+
+        <div class="container">
+            
+            <div class="space"></div>
+            <!-- Carousel Section for Rhianna & Joseph's Wedding -->
+            <div class="carousel-section">
+                <h2 class="carousel-title">Rhianna & Joseph's Wedding</h2>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">1 / 3</div> -->
+                        <img src="images/Rhianna&Joe_Sitting_Landscape.jpeg" style="width:100%">
+                        <!-- <div class="text">Caption Text</div> -->
+                    </div>
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">2 / 3</div> -->
+                        <img src="images/RandJFloral.jpg" style="width:100%">
+                        <!-- <div class="text">Caption Two</div> -->
+                    </div>
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">3 / 3</div> -->
+                        <img src="images/TableDisplay2.jpg" style="width:100%">
+                        <!-- <div class="text">Caption Three</div> -->
+                    </div>
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">1 / 3</div> -->
+                        <img src="images/RandJFloral.jpg" style="width:100%">
+                        <!-- <div class="text">Caption Text</div> -->
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">3 / 3</div> -->
+                        <img src="images/TableDisplay2.jpg" style="width:100%">
+                        <!-- <div class="text">Caption Three</div> -->
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <!-- <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div> -->
+                <div class="testimonial">
+                    <!-- <h4 class="testimonials_name">Rhianna & Joseph's Wedding</h4> -->
+                    <p class="testimonials_page_description">
+                        When it came to planning my wedding, I really had no idea where to start, all I knew was the sort of venue and flowers. Abi and her team at Willow Tree Events made the whole process so easy! Their organisation and attention to details are second to none. The whole day ran so smoothly and the vision really came to life. I wish I could do the day all over again. We will definitely use Willow Tree Events for all our future events!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Carousel Section for Liam's Birthday Celebration -->
+            <!-- <h4 class="testimonials_name">Liam's Birthday Celebration</h4> -->
+                    
+            <div class="carousel-section">
+                <h2 class="carousel-title">Liam's Birthday Celebration</h2>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">1 / 3</div> -->
+                        <img src="images/PrivateEvent1.JPG" style="width:100%">
+                        <!-- <div class="text">Caption One</div> -->
+                    </div>
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">2 / 3</div> -->
+                        <img src="images/PrivateEvent2.JPG" style="width:100%">
+                        <!-- <div class="text">Caption Two</div> -->
+                    </div>
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">3 / 3</div> -->
+                        <img src="images/PrivateEvent3.JPG" style="width:100%">
+                        <!-- <div class="text">Caption Three</div> -->
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <!-- <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div> -->
+                <div class="testimonial">
+                <p class="testimonials_page_description">
+                        Willow Tree Events turned my home into the perfect setting for my 70th birthday, creating a relaxed yet elegant atmosphere that was exactly what we envisioned. They made the entire process effortless, handling every detail with care and grace. It was a truly special with my family and friends.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- Carousel Section for Champion of Women Awards -->
+            <div class="carousel-section">
+                <h2 class="carousel-title">Champion of Women Awards</h2>
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">1 / 3</div> -->
+                        <img src="images/Championofwomen230.JPG" style="width:100%">
+                        <!-- <div class="text">Caption One</div> -->
+                    </div>
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">2 / 3</div> -->
+                        <img src="images/TableDisplay2.jpg" style="width:100%">
+                        <!-- <div class="text">Caption Two</div> -->
+                    </div>
+                    <div class="mySlides fade">
+                        <!-- <div class="numbertext">3 / 3</div> -->
+                        <img src="images/Floral.JPG" style="width:100%">
+                        <!-- <div class="text">Caption Three</div> -->
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <!-- <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div> -->
+                <div class="testimonial">
+                    <!-- <h4 class="testimonials_name">Champion of Women Awards</h4> -->
+                    <p class="testimonials_page_description">
+                        Willow Tree Events transformed our awards ceremony into an incredible experience. Their professionalism and creativity were evident in every detail. Our guests were thoroughly impressed, and the event exceeded all our expectations!
+                    </p>
+                </div>
+            </div>
+
+
+            appear on hover images
+                    <div class="hover_img">
+            <a class="appearing_image" href="#"><span><img src="images/Rhianna&Joe_Sitting_Landscape.jpeg" alt="image"/></span>
+                <h4 class="testimonials_name">Rhianna & Joseph's Wedding</h4>
+                <p class="testimonials_page_description">
+                    When it came to planning my wedding, I really had no idea where to start, all I knew was the sort of venue and flowers. Abi and her team at Willow Tree Events made the whole process so easy! Their organisation and attention to details are second to none. The whole day ran so smoothly and the vision really came to life. I wish I could do the day all over again. We will definitely use Willow Tree Events for all our future events!
+                </p>
+            </a>
+        </div>
+
+        <div class="hover_img">
+            <a class="appearing_image" href="#"><span><img src="images/PrivateEvent1.JPG" alt="image"/></span>
+                <h4 class="testimonials_name">liam's 70th Birthday</h4>
+                <p class="testimonials_page_description">
+                    Willow Tree Events turned my home into the perfect setting for my 70th birthday, creating a relaxed yet elegant atmosphere that was exactly what we envisioned. They made the entire process effortless, handling every detail with care and grace. It was a truly special with my family and friends.
+                </p>
+            </a>
+        </div>
+        <div class="hover_img">
+            <a class="appearing_image" href="#"><span><img src="images/Championofwomen230.JPG" alt="image"/></span>
+                <h4 class="testimonials_name">Champion of Women Awards</h4>
+                <p class="testimonials_page_description">
+                    Willow Tree Events transformed our awards ceremony into an incredible experience. Their professionalism and creativity were evident in every detail. Our guests were thoroughly impressed, and the event exceeded all our expectations!
+                </p>
+            </a>
+        </div>
