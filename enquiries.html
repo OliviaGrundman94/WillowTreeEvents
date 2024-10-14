@@ -15,9 +15,25 @@
     <title>Enquiries</title>
 </head>
 <body>
-    <green-header-component></green-header-component>
+    <header-component></header-component>
 
-    <main class="container">
+
+    <main>
+        <section class="private section" id="private">
+            <img src="images/TableDisplay2.jpg" alt="private image" class="private_bg">
+            <div class="private_shadow"></div>
+    
+            <div class="private_container container grid">
+                <div class="private_data">
+                    <h2 class="secondary_title">
+                        Enquiries
+                    </h2>
+                </div>
+            </div>
+        </section>
+        
+        <div class="big_space"></div>
+
         <div class="enquiries_container">
             <form class="form" action="https://formsubmit.co/enquiries@willowtreeevents.co.uk" method="POST">
              
@@ -51,7 +67,7 @@
                 <!-- Event Message Field -->
                 <div class="form__item">
                     <!-- <label for="message" class="form__label">Tell Us About Your Event</label> -->
-                    <textarea maxlength="500" class="form__input" name="message" id="message" placeholder="Tell us about your event" required></textarea>
+                    <textarea maxlength="500" class="form__input" name="message" id="message" placeholder="Tell Us About Your Event" required></textarea>
                     <span class="form__error">Please provide details about your event</span>
                 </div>
             

@@ -6,92 +6,42 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = 
-    `<header class="header" id="header">
-        <nav class="nav container">
-            <a href="index.html" class="nav_logo">
-                <img src="images/WillowTreeLogo_White_NoBackground.png" alt="Logo">
-            </a>
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_list">
-                    <li class="nav_item">
-                        <a href="about.html" class="nav_link">About</a>
-                    </li>
-                    <li class="nav_item dropdown">
-                        <a href="javascript:void(0)" class="dropbtn nav_link">Services</i></a>
-                        <div class="dropdown-content">
-                            <a href="weddings.html">Weddings</a>
-                            <a href="privatecelebrations.html">Private Celebrations</a>
-                            <a href="corporateevents.html">Corporate Events</a>
-                        </div>
-                    </li>
-                    <li class="nav_item">
-                        <a href="testimonials.html" class="nav_link">Testimonials</a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="enquiries.html" class="nav_link">Enquiries</a>
-                    </li>
-                </ul>
-            </div>
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+    `<header>
+        <nav class="nav">
+            <ul class="list sidebar">
+                <li onClick=hideSidebar()><a href=""><i class="fa-solid fa-xmark"></i></a></li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                    <a href="#">Services</a>
+                    <ul class="dropdown">
+                        <li><a href="weddings.html">Weddings</a></li>
+                        <li><a href="privatecelebrations.html">Private Celebrations</a></li>
+                        <li><a href="corporateevents.html">Corporate Events</a></li>
+                    </ul>
+                </li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="enquiries.html">Enquiries</a></li>
+            </ul>
+            <ul class="list">
+                <li class="nav_logo"><a href="index.html"><img src="/images/WillowTreeLogo_White_NoBackground.png" alt=""></a></li>
+                <li class="hideOnMobile"><a href="about.html">About</a></li>
+                <li class="hideOnMobile">
+                    <a href="#">Services</a>
+                    <ul class="dropdown">
+                        <li><a href="weddings.html">Weddings</a></li>
+                        <li><a href="privatecelebrations.html">Private Celebrations</a></li>
+                        <li><a href="corporateevents.html">Corporate Events</a></li>
+                    </ul>
+                </li>
+                <li class="hideOnMobile"><a href="testimonials.html">Testimonials</a></li>
+                <li class="hideOnMobile"><a href="enquiries.html">Enquiries</a></li>
+                <li class="menu-button" onClick=showSidebar()><a href=""><i class="fa-solid fa-bars"></i></a></li>
+            
+            </ul>
         </nav>
-        
-    </header>
-    `;
+    </header>`;
     }   
 }
 
   customElements.define('header-component', Header);
 
-
-
-  class GreenHeader extends HTMLElement {
-    constructor() {
-      super();
-    }
-
-
-  connectedCallback() {
-    this.innerHTML = 
-    `<header class="header header-green" id="header">
-        <nav class="nav-green container">
-            <a href="index.html" class="nav_logo-green">
-                <img src="images/WillowTreeLogo_White_NoBackground.png" alt="Logo">
-            </a>
-            <div class="nav_menu-green" id="nav-menu-green">
-                <ul class="nav_list-green">
-                    <li class="nav_item-green"><a href="about.html" class="nav_link-green">About</a></li>
-                    <li class="nav_item-green dropdown-green">
-                        <a href="javascript:void(0)" class="nav_link-green dropbtn-green">Services</a>
-                        <div class="dropdown-content-green">
-                            <a href="weddings.html">Weddings</a>
-                            <a href="privatecelebrations.html">Private Celebrations</a>
-                            <a href="corporateevents.html">Corporate Events</a>
-                        </div>
-                    </li>
-                    <li class="nav_item-green"><a href="testimonials.html" class="nav_link-green">
-                        Testimonials</a>
-                    </li>
-                    <li class="nav_item-green">
-                        <a href="enquiries.html" class="nav_link-green">
-                        Enquiries
-                        </a>
-                    </li>
-                </ul>
-                <div class="nav_close-green" id="nav-close-green">
-                    <i class="fa-solid fa-xmark">
-                    </i>
-                </div>
-            </div>
-            <div class="nav_toggle-green" id="nav-toggle-green">
-                <i class="fa-solid fa-bars">
-                </i>
-            </div>
-        </nav>
-    </header>
-    `;
-    }   
-}
-
-  customElements.define('green-header-component', GreenHeader);
